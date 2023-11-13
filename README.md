@@ -2,7 +2,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/EntzoMC/drawer">
-    <img src="https://entzomc.com/dafz-vyga7images0/images/7552af524b8bae4cd3117894ea330cf1.png" alt="Logo" width="80" height="80">
+    <img src="https://entzomc.com/dafz-vyga7images0/images/7552af524b8bae4cd3117894ea330cf1.png" alt="Logo" width="256" height="256">
   </a>
 
   <h3 align="center">Drawer</h3>
