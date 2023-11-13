@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "Blocks.STRIPPED_OAK_LOG"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "Blocks.PLANKS#0"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedOakDrawer"
+    },
+    "name": "stripped_oak_drawer_recipe",
+    "namespace": "mod"
+  }
+}

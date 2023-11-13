@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "Blocks.LOG2#0"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "Blocks.PLANKS#4"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      },
+      {
+        "value": "CUSTOM:Screw"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AcaciaDrawer"
+    },
+    "name": "acacia_drawer_recipe",
+    "namespace": "mod"
+  }
+}
