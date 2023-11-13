@@ -39,7 +39,7 @@ Visit MCreator github [here](https://github.com/MCreator/MCreator)
 <p><strong>Drawer works with Forge and Fabric</strong></p>
 <p><strong>This mod was created using <a href="https://mcreator.net/">MCreator</a></strong></p>
 <p><strong>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></strong></p>
-<p><b>Check out the <a href="https://entzomc.com/drawer-mod">Official website</a></b></p>
+<p><b>Check out the <a href="https://entzomc.com/mods">Official website</a></b></p>
 <p><b>Join my <a title="Discord Server" href="https://discord.gg/GChPQjPMse">Discord Server</a></b></p>
 <p><b>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><strong><u>Aesterial-Arts</u></strong></a><strong>&nbsp;</strong>for the open and close sounds</b></p>
 <p><strong>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants and also stripped wooden variants and also stripped wooden.&nbsp;</p>
