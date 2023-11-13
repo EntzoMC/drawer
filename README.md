@@ -11,7 +11,6 @@
     Adds drawers to the game
     <br/>
     <br/>
-    <a href="https://github.com/EntzoMC/drawer"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/EntzoMC/drawer/issues">Report Bug</a>
