@@ -28,7 +28,7 @@
 * [Authors](#authors)
 ## About The Project
 
-![Screen Shot](https://media.forgecdn.net/attachments/526/70/2022-11-24-23.png)
+![Screen Shot]([https://media.forgecdn.net/attachments/526/70/2022-11-24-23.png](https://cdn.modrinth.com/data/MxQJZHGa/images/f2f874d811ec07b10e574d41805ad37d4344be95.png))
 
 <p><span style="font-size: 18px;"><strong>Note: Fabric 1.20.1 version is still buggy<br />Drawer mod Open Source! 🎉 to visit Github repo, <a href="https://github.com/EntzoMC/drawer">click here</a></strong></span></p>
 <p><strong>Drawer works with Forge and Fabric</strong></p>
@@ -44,13 +44,13 @@
 <p>&nbsp;</p>
 <p>The crafting recipe are 7 screws any plank and any log/stem</p>
 <p>&nbsp;</p>
-<p><img src="https://media.forgecdn.net/attachments/526/736/2022-11-24-27.png" alt="the crafting recipe" width="322" height="169" /></p>
+<p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/18513ba014e3a30b00d8d19f472552d8c98a052c.png" alt="the crafting recipe" width="322" height="169" /></p>
 <p>&nbsp;</p>
-<p>&nbsp;<br /><img src="https://media.forgecdn.net/attachments/526/737/2022-11-24-28.png" alt="the crafting recipe for stripped drawers" width="322" height="168" /></p>
+<p>&nbsp;<br /><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/d08bec94fc8a86ce50f15c0e645999568b56223d.png" alt="the crafting recipe for stripped drawers" width="322" height="168" /></p>
 <p>&nbsp;</p>
 <p>The smelting recipe 1 iron nugget</p>
 <p>&nbsp;</p>
-<p><img src="https://media.forgecdn.net/attachments/634/834/2023-03-16-3.png" width="321" height="229" /></p>
+<p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/872567949996b9922d488cb8ba9ba555e8a07c10.png" width="321" height="229" /></p>
 <p>&nbsp;</p>
 
 
