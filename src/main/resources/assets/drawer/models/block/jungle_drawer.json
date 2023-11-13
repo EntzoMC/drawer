@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_jungle",
+    "up": "drawer:block/drawer_top_jungle",
+    "north": "drawer:block/drawer_front_jungle_close",
+    "east": "drawer:block/drawer_side_jungle",
+    "south": "drawer:block/drawer_back_jungle",
+    "west": "drawer:block/drawer_side_jungle",
+    "particle": "drawer:block/drawer_bottom_jungle"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "drawer",
+  "version": "0.1.8",
+  "name": "Drawer",
+  "description": "Adds drawers to the game",
+  "authors": [
+    "Entzo"
+  ],
+  "contact": {
+    "homepage": "https://entzomc.com",
+    "sources": ""
+  },
+  "license": "Creative Commons 4.0",
+  "icon": "assets/drawer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.entzomc.drawer.DrawerMod"
+    ],
+    "client": [
+      "net.entzomc.drawer.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "drawer.mixins.json"
+  ]
+}

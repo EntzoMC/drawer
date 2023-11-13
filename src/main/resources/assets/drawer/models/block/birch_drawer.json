@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_birch",
+    "up": "drawer:block/drawer_top_birch",
+    "north": "drawer:block/drawer_front_birch_close",
+    "east": "drawer:block/drawer_side_birch",
+    "south": "drawer:block/drawer_back_birch",
+    "west": "drawer:block/drawer_side_birch",
+    "particle": "drawer:block/drawer_bottom_birch"
+  },
+  "render_type": "solid"
+}

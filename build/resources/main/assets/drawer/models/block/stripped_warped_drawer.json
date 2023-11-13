@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_stripped_warped",
+    "up": "drawer:block/drawer_top_stripped_warped",
+    "north": "drawer:block/drawer_front_stripped_warped_close",
+    "east": "drawer:block/drawer_side_stripped_warped",
+    "south": "drawer:block/drawer_back_stripped_warped",
+    "west": "drawer:block/drawer_side_stripped_warped",
+    "particle": "drawer:block/drawer_bottom_stripped_warped"
+  },
+  "render_type": "solid"
+}

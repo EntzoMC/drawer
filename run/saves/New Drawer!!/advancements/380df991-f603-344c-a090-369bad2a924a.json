@@ -1,0 +1,48 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-09-22 06:27:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2023-09-22 06:28:39 +0800",
+      "minecraft:cherry_grove": "2023-09-22 18:25:48 +0800",
+      "minecraft:meadow": "2023-09-22 06:27:43 +0800",
+      "minecraft:plains": "2023-09-22 06:28:49 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-09-22 06:29:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2023-09-22 06:29:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2023-09-22 06:29:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2023-09-22 06:29:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-09-22 06:29:24 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

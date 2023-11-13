@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    }
+  ],
+  "result": {
+    "item": "drawer:stripped_birch_drawer",
+    "count": 1
+  }
+}

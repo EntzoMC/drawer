@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_stripped_big_oak",
+    "up": "drawer:block/drawer_top_stripped_spruce",
+    "north": "drawer:block/drawer_front_stripped_spruce_close",
+    "east": "drawer:block/drawer_side_stripped_spruce",
+    "south": "drawer:block/drawer_back_stripped_spruce",
+    "west": "drawer:block/drawer_side_stripped_spruce",
+    "particle": "drawer:block/drawer_bottom_stripped_big_oak"
+  },
+  "render_type": "solid"
+}

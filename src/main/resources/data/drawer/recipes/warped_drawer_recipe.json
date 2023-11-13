@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:warped_planks"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    }
+  ],
+  "result": {
+    "item": "drawer:warped_drawer",
+    "count": 1
+  }
+}

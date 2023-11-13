@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "drawer:block/stripped_spruce_drawer"
+    },
+    "facing=east": {
+      "model": "drawer:block/stripped_spruce_drawer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "drawer:block/stripped_spruce_drawer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "drawer:block/stripped_spruce_drawer",
+      "y": 270
+    }
+  }
+}

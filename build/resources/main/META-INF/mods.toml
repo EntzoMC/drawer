@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons 4.0"
+
+[[mods]]
+modId="drawer"
+version="0.1.8"
+displayName="Drawer"
+credits="Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://entzomc.com"
+logoFile="logo.png"
+authors="Entzo"
+description="Adds drawers to the game"
+
+[[dependencies.drawer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_stripped_mangrove",
+    "up": "drawer:block/drawer_top_stripped_mangrove",
+    "north": "drawer:block/drawer_front_stripped_mangrove_close",
+    "east": "drawer:block/drawer_side_stripped_mangrove",
+    "south": "drawer:block/drawer_back_stripped_mangrove",
+    "west": "drawer:block/drawer_side_stripped_mangrove",
+    "particle": "drawer:block/drawer_bottom_stripped_mangrove"
+  },
+  "render_type": "solid"
+}

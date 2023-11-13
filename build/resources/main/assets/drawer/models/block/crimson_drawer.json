@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_crimson",
+    "up": "drawer:block/drawer_top_crimson",
+    "north": "drawer:block/drawer_front_crimson_close",
+    "east": "drawer:block/drawer_side_crimson",
+    "south": "drawer:block/drawer_back_crimson",
+    "west": "drawer:block/drawer_side_crimson",
+    "particle": "drawer:block/drawer_bottom_crimson"
+  },
+  "render_type": "solid"
+}

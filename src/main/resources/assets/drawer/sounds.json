@@ -1,0 +1,22 @@
+{
+  "drawer_open": {
+    "category": "block",
+    "subtitle": "subtitles.drawer_open",
+    "sounds": [
+      {
+        "name": "drawer:open",
+        "stream": false
+      }
+    ]
+  },
+  "drawer_close": {
+    "category": "block",
+    "subtitle": "subtitles.drawer_close",
+    "sounds": [
+      {
+        "name": "drawer:close",
+        "stream": false
+      }
+    ]
+  }
+}

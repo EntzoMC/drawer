@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drawer:block/drawer_bottom_acacia",
+    "up": "drawer:block/drawer_top_acacia",
+    "north": "drawer:block/drawer_front_acacia_close",
+    "east": "drawer:block/drawer_side_acacia",
+    "south": "drawer:block/drawer_back_acacia",
+    "west": "drawer:block/drawer_side_acacia",
+    "particle": "drawer:block/drawer_bottom_acacia"
+  },
+  "render_type": "solid"
+}
