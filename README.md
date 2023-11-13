@@ -30,7 +30,7 @@
 
 ![Screen Shot](https://cdn.modrinth.com/data/MxQJZHGa/images/f2f874d811ec07b10e574d41805ad37d4344be95.png)
 
-<p><span style="font-size: 18px;"><strong>Note: Fabric 1.20.1 version is still buggy<br />Drawer mod Open Source! 🎉 to visit Github repo, <a href="https://github.com/EntzoMC/drawer">click here</a></strong></span></p>
+<p><span style="font-size: 18px;"><strong>Note: Fabric 1.20.1 version is still buggy<br />
 <p><strong>Drawer works with Forge and Fabric</strong></p>
 <p><strong>This mod was created using <a href="https://mcreator.net/">MCreator</a></strong></p>
 <p><strong>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></strong></p>
