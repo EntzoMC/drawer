@@ -68,6 +68,11 @@ To install mods, you will need either of these installed
 <p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/872567949996b9922d488cb8ba9ba555e8a07c10.png" width="321" height="229" /></p>
 <p>&nbsp;</p>
 
+# Build
+This mod was built with [MCreator](https://mcreator.net) but you can also use
+
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
+* [Gradle](https://gradle.org)
 
 ## License
 
