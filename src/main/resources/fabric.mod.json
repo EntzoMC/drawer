@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "drawer",
-  "version": "0.1.8",
+  "version": "0.1.8.5",
   "name": "Drawer",
   "description": "Adds drawers to the game",
   "authors": [
     "Entzo"
   ],
   "contact": {
-    "homepage": "https://entzomc.com",
+    "homepage": "https://entzomc.com/mods",
     "sources": ""
   },
-  "license": "Creative Commons 4.0",
+  "license": "MIT License",
   "icon": "assets/drawer/icon.png",
   "environment": "*",
   "entrypoints": {

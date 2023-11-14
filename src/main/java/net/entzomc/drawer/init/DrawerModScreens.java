@@ -4,6 +4,11 @@
  */
 package net.entzomc.drawer.init;
 
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.entzomc.drawer.client.gui.WarpedDrawerGuiScreen;
@@ -27,27 +32,31 @@ import net.entzomc.drawer.client.gui.CherryDrawerGuiScreen;
 import net.entzomc.drawer.client.gui.BirchDrawerGuiScreen;
 import net.entzomc.drawer.client.gui.AcaciaDrawerGuiScreen;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DrawerModScreens {
-	public static void load() {
-		MenuScreens.register(DrawerModMenus.OAK_DRAWER_GUI, OakDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.SPRUCE_DRAWER_GUI, SpruceDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.BIRCH_DRAWER_GUI, BirchDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.JUNGLE_DRAWER_GUI, JungleDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.ACACIA_DRAWER_GUI, AcaciaDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.DARK_OAK_DRAWER_GUI, DarkOakDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.MANGROVE_DRAWER_GUI, MangroveDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.CRIMSON_DRAWER_GUI, CrimsonDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.WARPED_DRAWER_GUI, WarpedDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_OAK_DRAWER_GUI, StrippedOakDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_SPRUCE_DRAWER_GUI, StrippedSpruceDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_BIRCH_DRAWER_GUI, StrippedBirchDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_JUNGLE_DRAWER_GUI, StrippedJungleDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_ACACIA_DRAWER_GUI, StrippedAcaciaDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_DARK_OAK_DRAWER_GUI, StrippedDarkOakDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_MANGROVE_DRAWER_GUI, StrippedMangroveDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_CRIMSON_DRAWER_GUI, StrippedCrimsonDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_WARPED_DRAWER_GUI, StrippedWarpedDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.STRIPPED_CHERRY_DRAWER_GUI, StrippedCherryDrawerGuiScreen::new);
-		MenuScreens.register(DrawerModMenus.CHERRY_DRAWER_GUI, CherryDrawerGuiScreen::new);
+	@SubscribeEvent
+	public static void clientLoad(FMLClientSetupEvent event) {
+		event.enqueueWork(() -> {
+			MenuScreens.register(DrawerModMenus.OAK_DRAWER_GUI.get(), OakDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.SPRUCE_DRAWER_GUI.get(), SpruceDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.BIRCH_DRAWER_GUI.get(), BirchDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.JUNGLE_DRAWER_GUI.get(), JungleDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.ACACIA_DRAWER_GUI.get(), AcaciaDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.DARK_OAK_DRAWER_GUI.get(), DarkOakDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.MANGROVE_DRAWER_GUI.get(), MangroveDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.CRIMSON_DRAWER_GUI.get(), CrimsonDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.WARPED_DRAWER_GUI.get(), WarpedDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_OAK_DRAWER_GUI.get(), StrippedOakDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_SPRUCE_DRAWER_GUI.get(), StrippedSpruceDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_BIRCH_DRAWER_GUI.get(), StrippedBirchDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_JUNGLE_DRAWER_GUI.get(), StrippedJungleDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_ACACIA_DRAWER_GUI.get(), StrippedAcaciaDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_DARK_OAK_DRAWER_GUI.get(), StrippedDarkOakDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_MANGROVE_DRAWER_GUI.get(), StrippedMangroveDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_CRIMSON_DRAWER_GUI.get(), StrippedCrimsonDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_WARPED_DRAWER_GUI.get(), StrippedWarpedDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.STRIPPED_CHERRY_DRAWER_GUI.get(), StrippedCherryDrawerGuiScreen::new);
+			MenuScreens.register(DrawerModMenus.CHERRY_DRAWER_GUI.get(), CherryDrawerGuiScreen::new);
+		});
 	}
 }
