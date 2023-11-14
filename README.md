@@ -23,7 +23,10 @@
 
 ## Table Of Contents
 
+* [Built With](#built-with)
+* [Prerequisites](#prerequisites)
 * [About the Project](#about-the-project)
+* [Build](#build)
 * [License](#license)
 * [Authors](#authors)
 
@@ -45,14 +48,14 @@ To install mods, you will need either of these installed
 
 ![Screen Shot](https://cdn.modrinth.com/data/MxQJZHGa/images/f2f874d811ec07b10e574d41805ad37d4344be95.png)
 
-<p><span style="font-size: 18px;"><strong>Note: Fabric 1.20.1 version is still buggy<br />
-<p><strong>Drawer works with Forge and Fabric</strong></p>
-<p><strong>This mod was created using <a href="https://mcreator.net/">MCreator</a></strong></p>
-<p><strong>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></strong></p>
-<p><b>Check out the <a href="https://entzomc.com/mods">Official website</a></b></p>
-<p><b>Join my <a title="Discord Server" href="https://discord.gg/GChPQjPMse">Discord Server</a></b></p>
-<p><b>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><strong><u>Aesterial-Arts</u></strong></a><strong>&nbsp;</strong>for the open and close sounds</b></p>
-<p><strong>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants and also stripped wooden variants and also stripped wooden.&nbsp;</p>
+<p>Note: Fabric 1.20.1 version is still buggy<br />
+<p>Drawer works with Forge and Fabric</p>
+<p>This mod was created using <a href="https://mcreator.net/">MCreator</a></p>
+<p>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></p>
+<p>Check out the <a href="https://entzomc.com/mods">Official website</a></p>
+<p>Join my <a title="Discord Server" href="https://discord.gg/GChPQjPMse">Discord Server</a></p>
+<p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><u>Aesterial-Arts</u></a>&nbsp;</strong>for the open and close sounds</p>
+<p>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants and also stripped wooden variants and also stripped wooden.&nbsp;</p>
 <p>The mod also adds screws and a painting to the game</p>
 <p>There are also stripped versions of the drawer</p>
 <p>(All blocks and items)</p>
@@ -68,6 +71,11 @@ To install mods, you will need either of these installed
 <p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/872567949996b9922d488cb8ba9ba555e8a07c10.png" width="321" height="229" /></p>
 <p>&nbsp;</p>
 
+# Build
+This mod was built with [MCreator](https://mcreator.net) but you can also use
+
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
+* [Gradle](https://gradle.org)
 
 ## License
 
