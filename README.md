@@ -23,6 +23,8 @@
 
 ## Table Of Contents
 
+* [Built With](#built-with)
+* [Prerequisites](#prerequisites)
 * [About the Project](#about-the-project)
 * [License](#license)
 * [Authors](#authors)
