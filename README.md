@@ -26,6 +26,7 @@
 * [Built With](#built-with)
 * [Prerequisites](#prerequisites)
 * [About the Project](#about-the-project)
+* [Build](#build)
 * [License](#license)
 * [Authors](#authors)
 
