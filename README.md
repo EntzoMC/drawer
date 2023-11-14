@@ -26,11 +26,20 @@
 * [About the Project](#about-the-project)
 * [License](#license)
 * [Authors](#authors)
+
 ## Built With
 
 * [MCreator](https://mcreator.net)
 
 Visit MCreator github [here](https://github.com/MCreator/MCreator)
+
+# Prerequisites
+
+To install mods, you will need either of these installed 
+
+* [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
+* [Fabric](https://fabricmc.net)
+    * [Fabric API](https://modrinth.com/mod/fabric-api) (Reqiured when using fabric)
 
 ## About The Project
 
