@@ -79,7 +79,7 @@ This mod was built with [MCreator](https://mcreator.net) but you can also use
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/EntzoMC/drawer/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/EntzoMC/drawer/blob/main/LICENSE) for more information.
 
 ## Authors
 
