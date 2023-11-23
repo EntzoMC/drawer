@@ -74,7 +74,7 @@ To install mods, you will need either of these installed
 # Build
 This mod was built with [MCreator](https://mcreator.net) but you can also use
 
-* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
+* [OpenJDK](https://openjdk.org)
 * [Gradle](https://gradle.org)
 
 ## License
