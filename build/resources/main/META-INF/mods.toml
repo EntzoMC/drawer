@@ -4,9 +4,9 @@ license="MIT License"
 
 [[mods]]
 modId="drawer"
-version="0.1.8.5"
+version="0.1.9"
 displayName="Drawer"
-credits="Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about"
+credits="Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about. Credit to Fabric Generator for MCreator by Goldorion"
 displayURL="https://entzomc.com/mods"
 logoFile="logo.png"
 authors="Entzo"

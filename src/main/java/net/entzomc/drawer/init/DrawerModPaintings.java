@@ -1,18 +1,18 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.entzomc.drawer.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
 import net.minecraft.world.entity.decoration.PaintingVariant;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.Registry;
 
 import net.entzomc.drawer.DrawerMod;
 
 public class DrawerModPaintings {
-	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, DrawerMod.MODID);
-	public static final RegistryObject<PaintingVariant> OAK_DRAWER_PAINTING = REGISTRY.register("oak_drawer_painting", () -> new PaintingVariant(32, 32));
+	public static void load() {
+		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(DrawerMod.MODID, "oak_drawer_painting"), new PaintingVariant(32, 32));
+	}
 }

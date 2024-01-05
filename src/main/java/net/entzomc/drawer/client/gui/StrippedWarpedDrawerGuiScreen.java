@@ -1,3 +1,4 @@
+
 package net.entzomc.drawer.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -65,8 +66,8 @@ public class StrippedWarpedDrawerGuiScreen extends AbstractContainerScreen<Strip
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.drawer.stripped_warped_drawer_gui.label_stripped_warped_drawer"), 8, 6, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.drawer.stripped_warped_drawer_gui.label_inventory"), 8, 72, -12829636, false);
+		guiGraphics.drawString(font, Component.translatable("gui.drawer.stripped_warped_drawer_gui.label_stripped_warped_drawer"), 8, 6, -12829636);
+		guiGraphics.drawString(font, Component.translatable("gui.drawer.stripped_warped_drawer_gui.label_inventory"), 8, 72, -12829636);
 	}
 
 	@Override
