@@ -43,9 +43,9 @@ To install mods, you will need either of these installed
 * [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
 * [Neoforge](https://neoforged.net)
 * [Fabric](https://fabricmc.net)
-    * [Fabric API](https://modrinth.com/mod/fabric-api) (Reqiured when using fabric)
+    * [Fabric API](https://modrinth.com/mod/fabric-api) (Required when using Fabric)
 * [Quilt](https://quiltmc.org/en/) 
-    * [Quilted Fabric API](https://modrinth.com/mod/qsl)
+    * [Quilted Fabric API](https://modrinth.com/mod/qsl) (Required when using Quilt)
 
 ## About The Project
 
