@@ -1323,7 +1323,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
-    "credits": "Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about. Credit to Fabric Generator for MCreator by Goldorion ",
+    "credits": "Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about. Credit to Fabric Generator for MCreator by Goldorion  - https://mcreator.net/plugin/64512/mcreator-fabric-generator",
     "modElementsPackage": "net.entzomc.drawer",
     "lockBaseModFiles": false
   },

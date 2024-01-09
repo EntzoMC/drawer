@@ -1210,6 +1210,19 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "ScrewSmeltingRecipe1",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screw_smelting_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drawer/recipes/screw_smelting_recipe_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1323,7 +1336,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
-    "credits": "Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about. Credit to Fabric Generator for MCreator by Goldorion ",
+    "credits": "Credit to Aesterial-Arts for the open sounds - https://freesound.org/people/Aesterial-Arts/. Created using mod maker MCreator - https://mcreator.net/about. Credit to Fabric Generator for MCreator by Goldorion",
     "modElementsPackage": "net.entzomc.drawer",
     "lockBaseModFiles": false
   },
