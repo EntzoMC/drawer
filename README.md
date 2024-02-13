@@ -75,8 +75,11 @@ To install mods, you will need either of these installed
 <p>&nbsp;</p>
 
 # Build
-This mod was built with [MCreator](https://mcreator.net) but you can also use
+This mod was built with [MCreator](https://mcreator.net) 
 
+Fabric/Quilt version was made with [Fabric Generator](https://mcreator.net/plugin/64512/mcreator-fabric-generator)
+
+You can also use:
 * [OpenJDK](https://openjdk.org)
 * [Gradle](https://gradle.org)
 
