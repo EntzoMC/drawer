@@ -51,19 +51,19 @@ To install mods, you will need either of these installed
 
 ![Screen Shot](https://cdn.modrinth.com/data/MxQJZHGa/images/f2f874d811ec07b10e574d41805ad37d4344be95.png)
 
-<p>Note: Fabric 1.20.1 version is still buggy<br />
-<p>Drawer works with Forge and Fabric</p>
+<p>Note: Fabric & Quilt 1.20.1 version is still buggy<br />
+<p>Drawer works with Forge, Fabric, Quilt & Neoforge</p>
 <p>This mod was created using <a href="https://mcreator.net/">MCreator</a></p>
 <p>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></p>
 <p>Check out the <a href="https://entzomc.com/mods">Official website</a></p>
 <p>Join my <a title="Discord Server" href="https://discord.gg/GChPQjPMse">Discord Server</a></p>
-<p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><u>Aesterial-Arts</u></a>&nbsp;</strong>for the open and close sounds</p>
-<p>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants and also stripped wooden variants and also stripped wooden.&nbsp;</p>
-<p>The mod also adds screws and a painting to the game</p>
+<p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><u>Aesterial-Arts</u></a>&nbsp;</strong>for the open & close sounds</p>
+<p>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants & also stripped wooden variants & also stripped wooden.&nbsp;</p>
+<p>The mod also adds screws & a painting to the game</p>
 <p>There are also stripped versions of the drawer</p>
-<p>(All blocks and items)</p>
+<p>(All blocks & items)</p>
 <p>&nbsp;</p>
-<p>The crafting recipe are 7 screws any plank and any log/stem</p>
+<p>The crafting recipe are 7 screws any plank & any log/stem</p>
 <p>&nbsp;</p>
 <p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/18513ba014e3a30b00d8d19f472552d8c98a052c.png" alt="the crafting recipe" width="322" height="169" /></p>
 <p>&nbsp;</p>
@@ -75,8 +75,11 @@ To install mods, you will need either of these installed
 <p>&nbsp;</p>
 
 # Build
-This mod was built with [MCreator](https://mcreator.net) but you can also use
+This mod was built with [MCreator](https://mcreator.net) 
 
+Fabric/Quilt version was made with [Fabric Generator](https://mcreator.net/plugin/64512/mcreator-fabric-generator)
+
+You can also use:
 * [OpenJDK](https://openjdk.org)
 * [Gradle](https://gradle.org)
 
