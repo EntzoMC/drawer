@@ -1,4 +1,3 @@
-
 package net.entzomc.drawer.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -66,8 +65,8 @@ public class SpruceDrawerGuiScreen extends AbstractContainerScreen<SpruceDrawerG
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(font, Component.translatable("gui.drawer.spruce_drawer_gui.label_spruce_drawer"), 8, 6, -12829636);
-		guiGraphics.drawString(font, Component.translatable("gui.drawer.spruce_drawer_gui.label_inventory"), 8, 72, -12829636);
+		guiGraphics.drawString(this.font, Component.translatable("gui.drawer.spruce_drawer_gui.label_spruce_drawer"), 8, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.drawer.spruce_drawer_gui.label_inventory"), 8, 72, -12829636, false);
 	}
 
 	@Override

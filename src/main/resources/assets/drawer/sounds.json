@@ -1,6 +1,5 @@
 {
   "drawer_open": {
-    "category": "block",
     "subtitle": "subtitles.drawer_open",
     "sounds": [
       {
@@ -10,7 +9,6 @@
     ]
   },
   "drawer_close": {
-    "category": "block",
     "subtitle": "subtitles.drawer_close",
     "sounds": [
       {

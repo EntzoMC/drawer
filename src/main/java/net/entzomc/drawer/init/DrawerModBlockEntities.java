@@ -1,15 +1,15 @@
 
 /*
- *	MCreator note: This file will be REGENERATED on each build.
+ *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.entzomc.drawer.init;
 
-import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.Registry;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.Block;
 
 import net.entzomc.drawer.block.entity.WarpedDrawerBlockEntity;
 import net.entzomc.drawer.block.entity.StrippedWarpedDrawerBlockEntity;
@@ -34,59 +34,29 @@ import net.entzomc.drawer.block.entity.AcaciaDrawerBlockEntity;
 import net.entzomc.drawer.DrawerMod;
 
 public class DrawerModBlockEntities {
-	public static BlockEntityType<?> OAK_DRAWER;
-	public static BlockEntityType<?> SPRUCE_DRAWER;
-	public static BlockEntityType<?> BIRCH_DRAWER;
-	public static BlockEntityType<?> JUNGLE_DRAWER;
-	public static BlockEntityType<?> ACACIA_DRAWER;
-	public static BlockEntityType<?> DARK_OAK_DRAWER;
-	public static BlockEntityType<?> MANGROVE_DRAWER;
-	public static BlockEntityType<?> CRIMSON_DRAWER;
-	public static BlockEntityType<?> WARPED_DRAWER;
-	public static BlockEntityType<?> CHERRY_DRAWER;
-	public static BlockEntityType<?> STRIPPED_OAK_DRAWER;
-	public static BlockEntityType<?> STRIPPED_SPRUCE_DRAWER;
-	public static BlockEntityType<?> STRIPPED_BIRCH_DRAWER;
-	public static BlockEntityType<?> STRIPPED_JUNGLE_DRAWER;
-	public static BlockEntityType<?> STRIPPED_ACACIA_DRAWER;
-	public static BlockEntityType<?> STRIPPED_DARK_OAK_DRAWER;
-	public static BlockEntityType<?> STRIPPED_MANGROVE_DRAWER;
-	public static BlockEntityType<?> STRIPPED_CRIMSON_DRAWER;
-	public static BlockEntityType<?> STRIPPED_WARPED_DRAWER;
-	public static BlockEntityType<?> STRIPPED_CHERRY_DRAWER;
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, DrawerMod.MODID);
+	public static final RegistryObject<BlockEntityType<?>> OAK_DRAWER = register("oak_drawer", DrawerModBlocks.OAK_DRAWER, OakDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SPRUCE_DRAWER = register("spruce_drawer", DrawerModBlocks.SPRUCE_DRAWER, SpruceDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BIRCH_DRAWER = register("birch_drawer", DrawerModBlocks.BIRCH_DRAWER, BirchDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> JUNGLE_DRAWER = register("jungle_drawer", DrawerModBlocks.JUNGLE_DRAWER, JungleDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ACACIA_DRAWER = register("acacia_drawer", DrawerModBlocks.ACACIA_DRAWER, AcaciaDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> DARK_OAK_DRAWER = register("dark_oak_drawer", DrawerModBlocks.DARK_OAK_DRAWER, DarkOakDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MANGROVE_DRAWER = register("mangrove_drawer", DrawerModBlocks.MANGROVE_DRAWER, MangroveDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CRIMSON_DRAWER = register("crimson_drawer", DrawerModBlocks.CRIMSON_DRAWER, CrimsonDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> WARPED_DRAWER = register("warped_drawer", DrawerModBlocks.WARPED_DRAWER, WarpedDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CHERRY_DRAWER = register("cherry_drawer", DrawerModBlocks.CHERRY_DRAWER, CherryDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_OAK_DRAWER = register("stripped_oak_drawer", DrawerModBlocks.STRIPPED_OAK_DRAWER, StrippedOakDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_SPRUCE_DRAWER = register("stripped_spruce_drawer", DrawerModBlocks.STRIPPED_SPRUCE_DRAWER, StrippedSpruceDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_BIRCH_DRAWER = register("stripped_birch_drawer", DrawerModBlocks.STRIPPED_BIRCH_DRAWER, StrippedBirchDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_JUNGLE_DRAWER = register("stripped_jungle_drawer", DrawerModBlocks.STRIPPED_JUNGLE_DRAWER, StrippedJungleDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_ACACIA_DRAWER = register("stripped_acacia_drawer", DrawerModBlocks.STRIPPED_ACACIA_DRAWER, StrippedAcaciaDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_DARK_OAK_DRAWER = register("stripped_dark_oak_drawer", DrawerModBlocks.STRIPPED_DARK_OAK_DRAWER, StrippedDarkOakDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_MANGROVE_DRAWER = register("stripped_mangrove_drawer", DrawerModBlocks.STRIPPED_MANGROVE_DRAWER, StrippedMangroveDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_CRIMSON_DRAWER = register("stripped_crimson_drawer", DrawerModBlocks.STRIPPED_CRIMSON_DRAWER, StrippedCrimsonDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_WARPED_DRAWER = register("stripped_warped_drawer", DrawerModBlocks.STRIPPED_WARPED_DRAWER, StrippedWarpedDrawerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRIPPED_CHERRY_DRAWER = register("stripped_cherry_drawer", DrawerModBlocks.STRIPPED_CHERRY_DRAWER, StrippedCherryDrawerBlockEntity::new);
 
-	public static void load() {
-		OAK_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "oak_drawer"), FabricBlockEntityTypeBuilder.create(OakDrawerBlockEntity::new, DrawerModBlocks.OAK_DRAWER).build(null));
-		SPRUCE_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "spruce_drawer"), FabricBlockEntityTypeBuilder.create(SpruceDrawerBlockEntity::new, DrawerModBlocks.SPRUCE_DRAWER).build(null));
-		BIRCH_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "birch_drawer"), FabricBlockEntityTypeBuilder.create(BirchDrawerBlockEntity::new, DrawerModBlocks.BIRCH_DRAWER).build(null));
-		JUNGLE_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "jungle_drawer"), FabricBlockEntityTypeBuilder.create(JungleDrawerBlockEntity::new, DrawerModBlocks.JUNGLE_DRAWER).build(null));
-		ACACIA_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "acacia_drawer"), FabricBlockEntityTypeBuilder.create(AcaciaDrawerBlockEntity::new, DrawerModBlocks.ACACIA_DRAWER).build(null));
-		DARK_OAK_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "dark_oak_drawer"),
-				FabricBlockEntityTypeBuilder.create(DarkOakDrawerBlockEntity::new, DrawerModBlocks.DARK_OAK_DRAWER).build(null));
-		MANGROVE_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "mangrove_drawer"),
-				FabricBlockEntityTypeBuilder.create(MangroveDrawerBlockEntity::new, DrawerModBlocks.MANGROVE_DRAWER).build(null));
-		CRIMSON_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "crimson_drawer"), FabricBlockEntityTypeBuilder.create(CrimsonDrawerBlockEntity::new, DrawerModBlocks.CRIMSON_DRAWER).build(null));
-		WARPED_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "warped_drawer"), FabricBlockEntityTypeBuilder.create(WarpedDrawerBlockEntity::new, DrawerModBlocks.WARPED_DRAWER).build(null));
-		CHERRY_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "cherry_drawer"), FabricBlockEntityTypeBuilder.create(CherryDrawerBlockEntity::new, DrawerModBlocks.CHERRY_DRAWER).build(null));
-		STRIPPED_OAK_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_oak_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedOakDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_OAK_DRAWER).build(null));
-		STRIPPED_SPRUCE_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_spruce_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedSpruceDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_SPRUCE_DRAWER).build(null));
-		STRIPPED_BIRCH_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_birch_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedBirchDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_BIRCH_DRAWER).build(null));
-		STRIPPED_JUNGLE_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_jungle_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedJungleDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_JUNGLE_DRAWER).build(null));
-		STRIPPED_ACACIA_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_acacia_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedAcaciaDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_ACACIA_DRAWER).build(null));
-		STRIPPED_DARK_OAK_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_dark_oak_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedDarkOakDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_DARK_OAK_DRAWER).build(null));
-		STRIPPED_MANGROVE_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_mangrove_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedMangroveDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_MANGROVE_DRAWER).build(null));
-		STRIPPED_CRIMSON_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_crimson_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedCrimsonDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_CRIMSON_DRAWER).build(null));
-		STRIPPED_WARPED_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_warped_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedWarpedDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_WARPED_DRAWER).build(null));
-		STRIPPED_CHERRY_DRAWER = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(DrawerMod.MODID, "stripped_cherry_drawer"),
-				FabricBlockEntityTypeBuilder.create(StrippedCherryDrawerBlockEntity::new, DrawerModBlocks.STRIPPED_CHERRY_DRAWER).build(null));
+	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
+		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}
 }

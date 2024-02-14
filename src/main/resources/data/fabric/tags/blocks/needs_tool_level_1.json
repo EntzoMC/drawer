@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "drawer:oak_drawer",
+    "drawer:spruce_drawer",
+    "drawer:birch_drawer",
+    "drawer:jungle_drawer",
+    "drawer:acacia_drawer",
+    "drawer:dark_oak_drawer",
+    "drawer:mangrove_drawer",
+    "drawer:crimson_drawer",
+    "drawer:warped_drawer",
+    "drawer:cherry_drawer",
+    "drawer:stripped_oak_drawer",
+    "drawer:stripped_spruce_drawer",
+    "drawer:stripped_birch_drawer",
+    "drawer:stripped_jungle_drawer",
+    "drawer:stripped_acacia_drawer",
+    "drawer:stripped_dark_oak_drawer",
+    "drawer:stripped_mangrove_drawer",
+    "drawer:stripped_crimson_drawer",
+    "drawer:stripped_warped_drawer",
+    "drawer:stripped_cherry_drawer"
+  ]
+}
