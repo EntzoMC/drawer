@@ -45,7 +45,7 @@ To install mods, you will need either of these installed
 * [Fabric](https://fabricmc.net)
     * [Fabric API](https://modrinth.com/mod/fabric-api) (Required when using Fabric)
 * [Quilt](https://quiltmc.org/en/) 
-    * [Quilted Fabric API](https://modrinth.com/mod/qsl) (Required when using Quilt)
+    * [Quilted Fabric API](https://github.com/QuiltMC/quilted-fabric-api) (Required when using Quilt)
 
 ## About The Project
 
