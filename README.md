@@ -51,7 +51,8 @@ To install mods, you will need either of these installed
 
 ![Screen Shot](https://cdn.modrinth.com/data/MxQJZHGa/images/f2f874d811ec07b10e574d41805ad37d4344be95.png)
 
-<p>Drawer works with Forge, Fabric, Quilt, Neoforge</p>
+<p>Drawer works with <a href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="noopener">Forge</a>, <a href="https://fabricmc.net/" target="_blank" rel="noopener">Fabric</a>, <a href="https://quiltmc.org/en/" target="_blank" rel="noopener">Quilt</a>, <a href="https://neoforged.net/" target="_blank" rel="noopener">Neoforge</a>.</p>
+<p>Quilt version reqiures <a href="https://github.com/QuiltMC/quilted-fabric-api" target="_blank" rel="noopener">Quilted Fabric API</a></p>
 <p>This mod was created using <a href="https://mcreator.net/">MCreator</a></p>
 <p>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></p>
 <p>Check out the <a href="https://entzomc.com/mods">Official website</a></p>
