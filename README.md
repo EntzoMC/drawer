@@ -65,9 +65,9 @@ To install mods, you will need either of these installed
 <p>&nbsp;</p>
 <p>The crafting recipe are 7 screws any plank & any log/stem</p>
 <p>&nbsp;</p>
-<p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/18513ba014e3a30b00d8d19f472552d8c98a052c.png" alt="the crafting recipe" width="322" height="169" /></p>
+<p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/46e8f54ce2478c7fe77498dbdd2a2ef7595e491a.gif" alt="the crafting recipe" width="322" height="169" /></p>
 <p>&nbsp;</p>
-<p>&nbsp;<br /><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/d08bec94fc8a86ce50f15c0e645999568b56223d.png" alt="the crafting recipe for stripped drawers" width="322" height="168" /></p>
+<p>&nbsp;<br /><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/a78edc38892154ac6b91cfdcb598f722f5d8ec04.gif" alt="the crafting recipe for stripped drawers" width="322" height="168" /></p>
 <p>&nbsp;</p>
 <p>The smelting recipe 1 iron nugget</p>
 <p>&nbsp;</p>
