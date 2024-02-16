@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:crimson_stem"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:crimson_planks"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    }
+  ],
+  "result": {
+    "item": "drawer:crimson_drawer",
+    "count": 1
+  }
+}

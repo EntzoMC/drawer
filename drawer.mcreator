@@ -1223,6 +1223,71 @@
           "src/main/resources/data/drawer/recipes/screw_smelting_recipe_1.json"
         ]
       }
+    },
+    {
+      "name": "CherryDrawerRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_drawer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drawer/recipes/cherry_drawer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedCherryDrawerRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_cherry_drawer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drawer/recipes/stripped_cherry_drawer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveDrawerRecipe1",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_drawer_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drawer/recipes/mangrove_drawer_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonDrawerRecipe1",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_drawer_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drawer/recipes/crimson_drawer_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleDrawerRecipe1",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_drawer_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drawer/recipes/jungle_drawer_recipe_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1301,12 +1366,12 @@
       "gui.drawer.birch_drawer_gui.label_inventory": "Inventory",
       "gui.drawer.stripped_oak_drawer_gui.label_inventory": "Inventory",
       "gui.drawer.mangrove_drawer_gui.label_inventory": "Inventory",
-      "painting.drawer.oak_drawer_painting.author": "Unknown",
+      "painting.drawer.oak_drawer_painting.author": "EntzoMC - Drawer",
       "block.drawer.stripped_cherry_drawer": "Stripped Cherry Drawer",
       "block.drawer.warped_drawer": "Warped Drawer",
       "gui.drawer.stripped_mangrove_drawer_gui.label_inventory": "Inventory",
       "gui.drawer.stripped_crimson_drawer_gui.label_inventory": "Inventory",
-      "gui.drawer.cherry_drawer_gui.label_oak_drawer": "Stripped Cherry Drawer",
+      "gui.drawer.cherry_drawer_gui.label_oak_drawer": "Cherry Drawer",
       "gui.drawer.jungle_drawer_gui.label_jungle_drawer": "Jungle Drawer",
       "gui.drawer.jungle_drawer_gui.label_inventory": "Inventory",
       "gui.drawer.stripped_oak_drawer_gui.label_stripped_oak_drawer": "Stripped Oak Drawer",
@@ -1323,7 +1388,7 @@
   "workspaceSettings": {
     "modid": "drawer",
     "modName": "Drawer",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Adds drawers to the game",
     "author": "Entzo",
     "websiteURL": "https://entzomc.com/mods",

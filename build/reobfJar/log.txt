@@ -382,13 +382,18 @@ Writing Output: C:\Users\entzo\MCreatorWorkspaces\drawerbackup\build\reobfJar\ou
   data/drawer/recipes/
   data/drawer/recipes/acacia_drawer_recipe.json
   data/drawer/recipes/birch_drawer_recipe.json
+  data/drawer/recipes/cherry_drawer_recipe.json
+  data/drawer/recipes/crimson_drawer_recipe_1.json
   data/drawer/recipes/dark_oak_drawer_recipe.json
+  data/drawer/recipes/jungle_drawer_recipe_1.json
+  data/drawer/recipes/mangrove_drawer_recipe_1.json
   data/drawer/recipes/oak_drawer_recipe.json
   data/drawer/recipes/screw_blasting_recipe.json
   data/drawer/recipes/screw_smelting_recipe_1.json
   data/drawer/recipes/spruce_drawer_recipe.json
   data/drawer/recipes/stripped_acacia_drawer_recipe.json
   data/drawer/recipes/stripped_birch_drawer_recipe.json
+  data/drawer/recipes/stripped_cherry_drawer_recipe.json
   data/drawer/recipes/stripped_crimson_drawer_recipe.json
   data/drawer/recipes/stripped_dark_oak_drawer_recipe.json
   data/drawer/recipes/stripped_jungle_drawer_recipe.json

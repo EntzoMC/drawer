@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="drawer"
-version="0.2.0"
+version="0.2.1"
 displayName="Drawer"
 displayURL="https://entzomc.com/mods"
 logoFile="logo.png"

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:stripped_cherry_log"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:cherry_planks"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    }
+  ],
+  "result": {
+    "item": "drawer:stripped_cherry_drawer",
+    "count": 1
+  }
+}

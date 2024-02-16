@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:mangrove_log"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "minecraft:mangrove_planks"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    },
+    {
+      "item": "drawer:screw"
+    }
+  ],
+  "result": {
+    "item": "drawer:mangrove_drawer",
+    "count": 1
+  }
+}

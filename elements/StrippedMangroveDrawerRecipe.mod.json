@@ -15,7 +15,7 @@
         "value": "CUSTOM:Screw"
       },
       {
-        "value": "Blocks.STRIPPED_BIRCH_LOG"
+        "value": "Blocks.STRIPPED_MANGROVE_LOG"
       },
       {
         "value": "CUSTOM:Screw"
@@ -24,7 +24,7 @@
         "value": "CUSTOM:Screw"
       },
       {
-        "value": "Blocks.PLANKS#2"
+        "value": "Blocks.MANGROVE_PLANKS"
       },
       {
         "value": "CUSTOM:Screw"
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:StrippedBirchDrawer"
+      "value": "CUSTOM:StrippedMangroveDrawer"
     },
     "name": "stripped_birch_drawer_recipe",
     "namespace": "mod"
