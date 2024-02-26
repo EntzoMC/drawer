@@ -56,7 +56,7 @@ To install mods, you will need either of these installed
 <p>This mod was created using <a href="https://mcreator.net/">MCreator</a></p>
 <p>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></p>
 <p>Check out the <a href="https://entzomc.com/mods">Official website</a></p>
-<p>Join my <a title="Discord Server" href="https://discord.gg/GChPQjPMse">Discord Server</a></p>
+<p>Join my <a title="Discord Server" href="https://discord.com/invite/9dqH4Qgane">Discord Server</a></p>
 <p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><u>Aesterial-Arts</u></a>&nbsp;</strong>for the open & close sounds</p>
 <p>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants & also stripped wooden variants & also stripped wooden.&nbsp;</p>
 <p>The mod also adds screws & a painting to the game</p>
