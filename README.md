@@ -57,7 +57,8 @@ To install mods, you will need either of these installed
 <p>This mod is also available on <a href="https://modrinth.com/mod/drawer">Modrinth</a></p>
 <p>Check out the <a href="https://entzomc.com/mods">Official website</a></p>
 <p>Join my <a title="Discord Server" href="https://discord.com/invite/9dqH4Qgane">Discord Server</a></p>
-<p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer"><u>Aesterial-Arts</u></a>&nbsp;</strong>for the open & close sounds</p>
+<p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/" target="_blank" rel="nofollow noopener noreferrer">Aesterial-Arts</a>&nbsp;for the <a href="https://freesound.org/people/Aesterial-Arts/sounds/633915/">open</a> &amp; <a href="https://freesound.org/people/Aesterial-Arts/sounds/633838/" target="_blank" rel="noopener">close</a> sounds</p>
+<p><a href="https://freesound.org/people/Aesterial-Arts/sounds/633915/">Open</a> &amp; <a href="https://freesound.org/people/Aesterial-Arts/sounds/633838/" target="_blank" rel="noopener">close</a> sounds are licensed as <a style="background-color: rgb(38, 38, 38); font-family: sans-serif;" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
 <p>Drawer mod</strong>&nbsp;adds Drawers to the game with wooden variants & also stripped wooden variants & also stripped wooden.&nbsp;</p>
 <p>The mod also adds screws & a painting to the game</p>
 <p>There are also stripped versions of the drawer</p>
