@@ -63,7 +63,7 @@ To install mods, you will need either of these installed
 <p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/46e8f54ce2478c7fe77498dbdd2a2ef7595e491a.gif" alt="the crafting recipe" width="388" height="203"></p>
 <p>&nbsp;<br><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/a78edc38892154ac6b91cfdcb598f722f5d8ec04.gif" alt="the crafting recipe for stripped drawers" width="388" height="203"></p>
 <p>The smelting recipe 1 iron nugget</p>
-<p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/872567949996b9922d488cb8ba9ba555e8a07c10.png" alt="" width="285" height="203"></p>
+<p><img src="https://cdn.modrinth.com/data/MxQJZHGa/images/0034a27b6faf8c7596d0c80868071797413d3cb1.png" alt="" width="388" height="203"></p>
 <h1>📃 Credits</h1>
 <p>Credit to&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/">Aesterial-Arts</a>&nbsp;for the&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/sounds/633915/">open</a>&nbsp;&amp;&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/sounds/633838/">close</a>&nbsp;sounds</p>
 <p><a href="https://freesound.org/people/Aesterial-Arts/sounds/633915/">Open</a>&nbsp;&amp;&nbsp;<a href="https://freesound.org/people/Aesterial-Arts/sounds/633838/">close</a>&nbsp;sounds are licensed as&nbsp;<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
