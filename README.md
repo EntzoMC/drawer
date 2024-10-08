@@ -21,6 +21,8 @@
 
 ![Downloads](https://img.shields.io/github/downloads/EntzoMC/drawer/total?style=for-the-badge) ![Contributors](https://img.shields.io/github/contributors/EntzoMC/drawer?color=dark-green&style=for-the-badge) ![Issues](https://img.shields.io/github/issues/EntzoMC/drawer?style=for-the-badge) ![License](https://img.shields.io/github/license/EntzoMC/drawer?style=for-the-badge) 
 
+# Currently, 1.21 only has Neoforge support
+
 ## 📃 Table Of Contents
 
 * [Built With](#built-with)
